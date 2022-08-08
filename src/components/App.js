@@ -1,8 +1,9 @@
 import React from 'react';
+import imagen1 from '../images/satisfied.png'
 
 function App() {
   return (
-    <div> <h1>App js</h1></div>
+    <div><img src={imagen1} alt="GHombre muy feliz" /></div>
   )
 }
 
