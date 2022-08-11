@@ -1,11 +1,12 @@
 import React from 'react';
+import './styles/app.scss';
 import Perritos from './Perritos';
 import data from '../data/Data.json'
 
 
 function Veterinaria() {
   return (
-    <div>
+    <div className="contenedor">
       <h1>Clientes caninos de Veterinaria </h1>
       <Perritos data={data}/>
     </div>

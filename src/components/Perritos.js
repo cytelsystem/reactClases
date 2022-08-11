@@ -1,11 +1,12 @@
 import React from 'react';
+import './styles/perrito.scss';
 
 function Perritos(props) {
 
   const data = props.data;
 
     return (
-        <div>
+        <div className="stylePerrito">
             {data.result.map(detalle => {
               return (
                 <div  key={detalle.id}>
