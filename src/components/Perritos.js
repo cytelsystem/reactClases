@@ -9,7 +9,7 @@ function Perritos(props) {
         <div className="stylePerrito">
             {data.result.map(detalle => {
               return (
-                <div  key={detalle.id}>
+                <React.Fragment  key={detalle.id}>
                   <h2>Nombre: {detalle.nombre}</h2>
                   <ul>
                     <li>Edad: {detalle.edad}</li>
@@ -17,7 +17,7 @@ function Perritos(props) {
                     <li>Raza: {detalle.raza}</li>
                     <li>Tamaño: {detalle.tamano}</li>
                   </ul>
-                </div>
+                </React.Fragment>
               )
             })}
         </div>

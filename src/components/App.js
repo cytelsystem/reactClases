@@ -1,16 +1,14 @@
 import React from 'react';
 import './styles/app.scss';
-import Perritos from './Perritos';
-import data from '../data/Data.json'
+import Veterinaria from './Veterinaria';
 
 
-function Veterinaria() {
+function App() {
   return (
-    <div className="contenedor">
-      <h1>Clientes caninos de Veterinaria </h1>
-      <Perritos data={data}/>
+    <div>
+      <Veterinaria/>
     </div>
   );
 }
 
-export default Veterinaria;
+export default App;

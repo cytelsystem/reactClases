@@ -36,6 +36,15 @@
           "raza": "Mestizo",
           "tamano": "Chico"
 
+      },
+      {
+          "id": 5,
+          "nombre": "Clase6",
+          "edad": 2,
+          "sexo": "No definido",
+          "raza": "Mestizo",
+          "tamano": "Chico"
+
       }
 
   ]
