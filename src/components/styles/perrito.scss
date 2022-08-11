@@ -1,11 +1,16 @@
 .stylePerrito {
   width: 35%;
     padding: 1% 2%;
+    h5 {
+      background-color: #baa8c6;
+      padding: 5px;
+      border-radius: 5%;
+    }
 
     h2 {
       color: #1500ff;
     }
-    
+
     li {
       list-style-type: circle;
     }

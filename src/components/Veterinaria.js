@@ -8,7 +8,7 @@ function Veterinaria() {
   return (
     <div className="contenedor">
       <h1>Clientes caninos de Veterinaria </h1>
-      <Perritos data={data}/>
+      <Perritos detalle="El mejor amigo del hombre pero no le presta plata." data={data}/>
     </div>
   );
 }

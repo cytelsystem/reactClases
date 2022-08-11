@@ -7,6 +7,7 @@ function Perritos(props) {
 
     return (
         <div className="stylePerrito">
+          <h5>{props.detalle}</h5>
             {data.result.map(detalle => {
               return (
                 <React.Fragment  key={detalle.id}>
