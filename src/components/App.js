@@ -1,21 +1,14 @@
 import React from 'react';
-import data from '../data/data';
-import styled from 'styled-components';
-
+import Main from './Main';
+import Footer from './Footer';
 
 function App() {
 
-  const H1Saludo = styled.h1`
-  color: red;
-  text-align: center;
-  `
-
-
   return (
-    <div>
-      {data.map((data, index) =>
-        <H1Saludo key={index}>{data}</H1Saludo>)}
-    </div>
+    <>
+      <Main />
+      <Footer />
+    </>
 
   )
 }
