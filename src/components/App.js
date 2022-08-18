@@ -1,21 +1,7 @@
-import './styles/app.css'
-import React, { Component, useState } from 'react'
+import React, { useState } from 'react'
 import Button from './Button.js'
-import "./styles/app.css";
+import './styles/app.css';
 
-  /* ESPACIO DE TRABAJO
-  - Armar la estructura para una Class Component
-  - Hacer un state con el arreglo de los colores
-  - Vamos a usar una funcion shuffle mas abajo y vamos a enviarla por props... que
-    formas tenemos para no perder el contexto?
-  */
-
-
-  /* ESPACIO DE TRABAJO
-  Funcion Shuffle
-  Aqui deberan hacer una funcion que me retorne un nuevo arreglo con los
-  colores mezclados
-  */
 
 function App() {
 
