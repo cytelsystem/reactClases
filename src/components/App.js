@@ -10,22 +10,35 @@ class App extends React.Component {
   }
 
   cancelOrder = () => {
-    this.setState({show: false});
+    this.setState(
+        {
+          show: false
+        }
+      );
   }
 
   componentDidMount() {
     setTimeout(() => {
-      this.setState({imHungryFor: "Pizzas"})
+      this.setState(
+        {
+          imHungryFor: "Pizzas"
+        }
+      )
     }, 2000)
   }
+
   componentDidUpdate() {
     console.log("El componente se actualizó!");
   }
+
+
   render() {
     let myOrder;
+
     if (this.state.show) {
       myOrder = <Child food={this.state.imHungryFor}/>;
     };
+
     return (
       <div>
       {myOrder}
@@ -33,6 +46,7 @@ class App extends React.Component {
       </div>
     );
   }
+
 }
 
 class Child extends React.Component {
