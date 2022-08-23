@@ -24,7 +24,7 @@ class App extends React.Component {
           imHungryFor: "Pizzas"
         }
       )
-    }, 2000)
+    }, 10000)
   }
 
   componentDidUpdate() {
