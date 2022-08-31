@@ -15,6 +15,8 @@ class Badges extends React.Component {
     data: undefined,
   };
 
+  console.log("informacion en data" + data);
+
   componentDidMount() {
     this.fetchData();
   }

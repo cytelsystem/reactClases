@@ -10,9 +10,6 @@ import md5 from 'md5'; // importar la libreria que fue instalada con npm install
 
 class BadgeNew extends React.Component {
 
-
-
-
   state = {
     form: {
       firstName: '', // Inicializar la informacion en blanco ""
@@ -32,8 +29,6 @@ class BadgeNew extends React.Component {
       },
     });
   };
-
-
 
 
 
