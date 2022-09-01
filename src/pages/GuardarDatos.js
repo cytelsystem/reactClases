@@ -9,51 +9,63 @@ class BadgeNew extends React.Component {
 
 
   state = {
-    form:     {
-      id: '',
-      link: [
-        {
-          nombre: ""
-        }
-      ]
+    form: {
 
     },
   };
 
+  state1 = {
+    form: {
+      id: '',
+      nombre: ''
+
+    },
+  };
 
   // prueba = () => {
 
   //   this.state1.form.link.push(`nombre: this.state.form.nombre, link: this.state.form.nombreLink`)
   // };
 
+  // handleChange = e => {
+
+
+
+  //   const array = [];
+  //   array.push([e.target.name] = e.target.value);
+  //   console.log(array);
+
+  //   const nextForm = this.state.ny;
+  //   nextForm[e.target.name] = e.target.value;
+
+  //   this.setState({
+
+  //   });
+
+  // };
+
+
   handleChange = e => {
 
     this.setState({
       form: {
-        nombre: e.target.value,
-        link: [
-          {
-            [e.target.name]: e.target.value,
-          }
-        ]
+        ...this.state.form,
+        [e.target.name]: e.target.value,
       },
     });
 
+    this.setState1({
+      form: {
+        id: 10,
+        nombre: "carlos"
+      },
+    });
   };
-
-  // handleChange = e => {
-  //   this.setState({
-  //     form: {
-  //       ...this.state.form,
-  //       [e.target.name]: e.target.value,
-  //     },
-  //   });
-  // };
 
 
   handleSubmit = async e => { // metodo handleSubmit
     e.preventDefault();
-    await api.prueba.create(this.state.form);
+    await api.prueba.create(this.state1.form);
 
   };
 

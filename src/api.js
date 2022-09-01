@@ -23,13 +23,32 @@ async function callApi(endpoint, options = {}) {
 
 const api = {
   prueba: {
+    list() {
+      return callApi('/results');
+    },
+    read(Id) {
+      return callApi(`/results/${Id}`);
+    },
     create(datos) {
       return callApi(`/results`, {
         method: 'POST',
         body: JSON.stringify(datos),
+      });
+    },
+    update(Id, updates) {
+      return callApi(`/results/${Id}`, {
+        method: 'PUT',
+        body: JSON.stringify(updates),
+      });
+    },
+    remove(Id) {
+      return callApi(`/results/${Id}`, {
+        method: 'DELETE',
       });
     }
   },
 };
 
 export default api;
+
+

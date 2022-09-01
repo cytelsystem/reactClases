@@ -2,19 +2,19 @@
   "results": [
     {
       "id": 1,
-      "nombre": "hector",
+      "nombre": "prueba server css",
       "link": [
         {
-          "nombreLink": "moreno"
+          "nombreLink": "link de css"
         }
       ]
     },
     {
       "id": 2,
-      "nombre": "hector",
+      "nombre": "prueba server css",
       "link": [
         {
-          "nombreLink": "moreno"
+          "nombreLink": "link de css"
         }
       ]
     }
