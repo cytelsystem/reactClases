@@ -21,7 +21,7 @@ async function callApi(endpoint, options = {}) {
   return data;
 }
 
-const api = {
+const Api = {
   prueba: {
     list() {
       return callApi('/results');
@@ -49,6 +49,6 @@ const api = {
   },
 };
 
-export default api;
+export default Api;
 
 

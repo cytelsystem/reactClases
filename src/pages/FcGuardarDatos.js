@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import api from '../api'; // importar api.js para hacer una llamada a la api
-import Form from '../components/Form';
+import api from '../Api'; // importar api.js para hacer una llamada a la api
+import FormJson from '../components/FormJson';
 
 
 
@@ -19,9 +19,10 @@ const FcGuardarDatos = () => {
   };
 
 
-  const handleSubmit = async e => { 
+  const handleSubmit = async e => {
 
     e.preventDefault();
+
     const payload = {
       id: '',
       nombre,
@@ -48,37 +49,10 @@ const FcGuardarDatos = () => {
 
 
     return (
-
       <>
-        <form onSubmit={handleSubmit}>
-            <div className="form-header">
-              <h2>Guardar jSon</h2>
-            </div>
+          <FormJson handleSubmit={handleSubmit} handleChange={handleChange} />
 
-            <div className="form-group">
-                <label>Nombre</label>
-                <input
-                  onChange={handleChange}
-                  className="form-control"
-                  type="text"
-                  name="nombre"
-                />
-              </div>
-            <div className="form-group">
-                <label>Nombrelink</label>
-                <input
-                  onChange={handleChange}
-                  className="form-control"
-                  type="text"
-                  name="nombreLink"
-                />
-              </div>
-
-            <button type="submit">Registrar Usuario</button>
-          </form>
-
-        </>
-
+      </>
     );
 
 }
