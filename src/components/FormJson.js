@@ -1,39 +1,22 @@
 import { useState } from 'react'
 import { saveAs } from 'file-saver';
 import styles from './styles/formjson.module.scss';
+import SubFormJson from './SubFormJson';
 const Form = ({ handleSubmit, handleChange }) => {
 
   const [link1, setLink1] = useState("none");
   const [link2, setLink2] = useState("none");
 
-  function getNewFileHandle(data) {
-
-    const opts = {
-      excludeAcceptAllOption: true ,
-      suggestedName: data,
-      types: [{
-        description: 'Text file',
-        // accept: {
-        //   'text/plain': ['.txt']
-        // },
-        accept: {
-          'image/*': ['.jpg', '.txt']
-        }
-
-      }],
-    };
-
-    const prueba = window.showSaveFilePicker(opts);
-
-    console.log(prueba)
-    return prueba;
-  }
+  const handleClick = e => {
+    return document.getElementById("formJson").reset();
+    console.log('Button was clicked');
+  };
 
 
 
   return (
         <>
-          <form onSubmit={handleSubmit} className={styles.form}>
+          <form id="formJson" onSubmit={handleSubmit} className={styles.form}>
             <div className="form-header">
               <h2>Guardar jSon</h2>
             </div>
@@ -57,76 +40,56 @@ const Form = ({ handleSubmit, handleChange }) => {
                 />
             </div>
 
-            <div style={{display: `${link1}`}} className={`${styles.link} ${styles.link1}`}>
-              <div className="form-group">
-                  <label>Link Nombre1</label>
-                  <input
-                    onChange={handleChange}
-                    className="form-control"
-                    type="text"
-                    name="link1"
-                  />
-              </div>
-              <div className="form-group">
-                  <label>Link Archivo1</label>
-                  <input
-                    id="archivo1"
-                    onChange={handleChange}
-                    className="form-control"
-                    type="text"
-                    name="archivo1"
-                  />
-                  <button onClick={() => {
-                    var valor = document.getElementById("archivo1").value;
-                    return getNewFileHandle(valor)
-                    }} >archivos1</button>
-              </div>
-            </div>
 
+            < SubFormJson
+              link={link1}
+              styleLink={styles.link}
+              styleLinkAd={styles.link1}
+              labelNombre="Link Nombre1"
+              labelArchivo="Archivo 1"
+              idArchivo="archivo1"
+              handleChange={handleChange}
+              nameLink="link1"
+              nameArchivo="archivo1"
+              btnName="archivos1Sub"
+            />
+            < SubFormJson
+              link={link2}
+              styleLink={styles.link}
+              styleLinkAd={styles.link2}
+              labelNombre="Link Nombre2"
+              labelArchivo="Archivo 2"
+              idArchivo="archivo2"
+              handleChange={handleChange}
+              nameLink="link2"
+              nameArchivo="archivo2"
+              btnName="archivos2Sub"
+            />
 
-            <div style={{display: `${link2}`}} className={`${styles.link} ${styles.link2}`}>
-              <div className="form-group">
-                  <label>Link Nombre2</label>
-                  <input
-                    onChange={handleChange}
-                    className="form-control"
-                    type="text"
-                    name="link2"
-                  />
-              </div>
-              <div className="form-group">
-                  <label>Archivo 2</label>
-                  <input
-                    onChange={handleChange}
-                    className="form-control"
-                    type="text"
-                    name="archivo2"
-                  />
-                  <button onClick={() => {
-                    var valor = document.getElementById("archivo1").value;
-                    return getNewFileHandle(valor)
-                  }} >archivos1</button>
-              </div>
-            </div>
-
-
-
-
-            <button type="submit">Registrar Usuario</button>
-            <button onClick={() => (getNewFileHandle("javier.txt"))} >archivos1</button>
-            <button onClick={() => {
+            <button onClick={(e) => {
+              e.preventDefault();
                    {link1 === "none" ? setLink1("block") : link2 === "none" ? setLink2("block") : setLink2("block")}
                   }
               }>
                 +
             </button>
 
-            <button onClick={() => {
+            <button onClick={(e) => {
+              e.preventDefault();
                    {link2 === "block" ? setLink2("none") : link1 === "block" ? setLink1("none") : setLink1("block")}
                   }
               }>
                 -
             </button>
+
+            {/* <button type="submit">Registrar</button> */}
+
+          <button onClick={handleClick} className="btn btn-primary">
+          Registrar
+          </button>
+
+            {/* <button onClick={handleSubmit} >Registrar</button> */}
+
 
           </form>
         </>

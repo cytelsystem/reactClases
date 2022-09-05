@@ -2,376 +2,57 @@
   "results": [
     {
       "id": 1,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
+      "nombrecompleto": "instalacion",
+      "detalle": "Herramientas y comandos de instalacion entoprno de react",
+      "link": [
+        {
+          "nombre": "instalacion",
+          "archivo": "InstalacionReactJs.txt"
+        }
+      ]
     },
     {
       "id": 2,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
+      "nombrecompleto": "instalar Bootstrap ReactJs",
+      "detalle": "instalar bootstrap para utilizar herramientas de bootstrap",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "installBootstrapReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "installBootstrapReactJS.txt"
+        }
+      ]
     },
     {
       "id": 3,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
+      "nombrecompleto": "instalar Bootstrap ReactJs",
+      "detalle": "instalar bootstrap para utilizar herramientas de bootstrap",
+      "link": [
+        {
+          "nombre": "link1",
+          "archivo": "installBootstrapReactJS.jpg"
+        },
+        {
+          "nombre": "link2",
+          "archivo": "installBootstrapReactJS.txt"
+        }
+      ]
     },
     {
       "id": 4,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 5,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 6,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 7,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 8,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 9,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 10,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 11,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 12,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 13,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 14,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 15,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 16,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 17,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 18,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 19,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 20,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 21,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 22,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 23,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 24,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 25,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 26,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 27,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 28,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 29,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 30,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 31,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 32,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 33,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 34,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 35,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 36,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 37,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 38,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 39,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 40,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 41,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 42,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 43,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 44,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 45,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 46,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 47,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 48,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 49,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 50,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 51,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 52,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 53,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 54,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 55,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 56,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 57,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": []
-    },
-    {
-      "id": 58,
-      "nombrecompleto": "",
-      "detalle": "",
+      "nombrecompleto": "instalar Bootstrap ReactJs",
+      "detalle": "instalar bootstrap para utilizar herramientas de bootstrap",
       "link": [
         {
-          "nombre": "prueba",
-          "archivo": "javier.jpg"
-        }
-      ]
-    },
-    {
-      "id": 59,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": [
+          "nombre": "link1",
+          "archivo": "installBootstrapReactJS.jpg"
+        },
         {
-          "nombre": "prueba",
-          "archivo": "javier.jpg"
-        }
-      ]
-    },
-    {
-      "id": 60,
-      "nombrecompleto": "",
-      "detalle": "",
-      "link": [
-        {
-          "nombre": "prueba",
-          "archivo": "javier.jpg"
+          "nombre": "link2",
+          "archivo": "installBootstrapReactJS.txt"
         }
       ]
     }
