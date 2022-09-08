@@ -1,8 +1,20 @@
-import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Personajes from './Personajes';
+
 
 function App() {
   return (
-    <div> <h1>App js</h1></div>
+    <>
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Personajes />} />
+            <Route path="/reactClases" element={<Personajes />} />
+            {/* <Route path="/character/:id" element={<CharacterDetail />} /> */}
+
+        </Routes>
+      </BrowserRouter>
+    </>
+
   )
 }
 
