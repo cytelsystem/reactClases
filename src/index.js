@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-import 'bootstrap/dist/css/bootstrap.css';
-import './global.scss';
 
-import App from '../src/components/App';
-
-const contenedor = document.getElementById('root');
-
-const root = ReactDOM.createRoot(contenedor);
-root.render(<App />);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
