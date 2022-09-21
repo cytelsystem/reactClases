@@ -1,0 +1,57 @@
+import React, { useState, useEffect } from 'react';
+
+
+
+function App() {
+  const[comment, setComment] = useState("hola soy un componente");
+
+  useEffect(() => {
+    setTexto("El componente ewsta montado");
+  }, []);
+
+  render
+}
+
+
+//***********************************************************************//
+
+import React from 'react';
+import axios from 'axios';
+
+export function useApi() {
+  const[user, setUser] = React.useState()
+
+  React.useEffect((email, password) => {
+    try {
+      setUser( axios.get(`${baseUrl}/users/getMe`))
+    } catch (error) {
+      console.error('error', error.message)
+    }
+  }, [])
+
+
+
+  return (
+    <div>
+      {user.name}
+    </div>
+  );
+}
+
+
+6
+5
+4
+8
+9
+-----
+32
+64374
+
+      setUser(
+        // setUser( axios.get(`${baseUrl}/users/getMe`)
+        axios.get(`https://rickandmortyapi.com/api`)
+
+        )
+
+11111

@@ -1,9 +1,11 @@
-import React from 'react';
+import {useApi} from './UseApi'
 
-function App() {
+
+const App = () => {
+
   return (
-    <div> <h1>App js</h1></div>
+    <h1>prueba</h1>
   )
 }
 
-export default App;
+export default App
